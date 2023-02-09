@@ -1,0 +1,14 @@
+{
+    "livros" : [
+        {
+            "nome" : "O Senhor dos Anéis",
+            "autor" : "J.R.R. Tolkien",
+            "ano" : 1954,
+            "editora" : "Allen & Unwin",
+            "genero" : "Fantasia",
+            "tags" : ["Aventura", "Fantasia", "Ficção Científica"],
+            "isbn" : "978-0-618-00001-1",
+            "pratileira" : "A1"
+        }
+    ]
+}
