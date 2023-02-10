@@ -8,6 +8,8 @@ app.on('ready', () => {
         minHeight: 600,
         minWidth: 1200,
         //frame: false,
+        titleBarStyle: "Kraken Boot DB",
+        titleBarOverlay: true,
     });
     mainWindow.setMenu(null);
     mainWindow.setIcon(`${__dirname}/icon.png`, `Overlay Icon`)
