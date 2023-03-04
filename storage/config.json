@@ -1,3 +1,47 @@
 {
-    "version" : "1.0"
+    "estatisticas" : {
+        "version" : "1.0"
+    },
+    
+    "data" : {
+        "info" : {
+            "name" : "Biblioteca Top",
+            "address" : "Rua Ata"
+        },
+        "tags" : 
+        [
+            "Aventura",
+            "Romance",
+            "Biografia",
+            "Ficção",
+            "Terror",
+            "Comédia",
+            "Drama",
+            "Ficção Científica",
+            "Fantasia",
+            "Mistério",
+            "Poesia",
+            "Policial",
+            "Suspense",
+            "Thriller",
+            "Autoajuda",
+            "Religião",
+            "Didático"
+        ],
+        "user_tags" : [
+            "1°a-ND",
+            "2°a-ND",
+            "3°a-ND",
+            "1°b-ND",
+            "2°b-ND",
+            "3°b-ND",
+            "1°a-MA",
+            "2°a-MA",
+            "3°a-MA",
+            "1°b-MA",
+            "2°b-MA",
+            "3°b-MA"
+        ]
+    }
+
 }
