@@ -6,7 +6,7 @@ app.on('ready', () => {
     
     mainWindow = new BrowserWindow({
         center: true,
-        closable: false,
+        closable: true,
         minHeight: 600,
         minWidth: 1200,
         //frame: false,

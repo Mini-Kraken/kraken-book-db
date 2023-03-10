@@ -9,6 +9,16 @@
             "tags" : ["Aventura", "Fantasia", "Ficção Científica"],
             "isbn" : "978-0-618-00001-1",
             "pratileira" : "A1"
+        },
+        {
+            "nome" : "Harry Potter e a Pedra Filosofal",
+            "autor" : "J.K. Rowling",
+            "ano" : 1997,
+            "editora" : "Bloomsbury",
+            "genero" : "Fantasia",
+            "tags" : ["Aventura", "Fantasia", "Ficção Científica", "Transfobia"],
+            "isbn" : "978-0-7475-3269-9",
+            "pratileira" : "A2"
         }
     ]
 }
