@@ -7,6 +7,7 @@ Uma solução Open source para Bibliotecas de livros com design minimalista!
 
 - [@quiradon](https://www.github.com/quiradon)
 - [@Semanual](https://www.github.com/Semanual)
+- [@Taijuu](https://www.github.com/Taijuu)
 
 ## Instalação
 
