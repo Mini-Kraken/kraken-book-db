@@ -1,123 +1,463 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>Services - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/scroll.css">
-    <link rel="stylesheet" href="assets/css/Stats-icons.css">
-</head>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Inter:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap"
+    />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/Stats-icons.css" />
+  </head>
 
-<body style="background: rgb(39,38,46);">
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top py-3" id="mainNav">
-        <div class="container-fluid"><a class="navbar-brand d-flex align-items-center" href="index.html" style="margin-left: 5px;"><span class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-book-fill">
-                        <path d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"></path>
-                    </svg></span><span>Kraken Book DB</span></a>
-            <div class="collapse navbar-collapse" id="navcol-2">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="livros.html">Livros</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects.html">Leitores</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Utilidades</a>
-                        <div class="dropdown-menu text-dark text-bg-dark shadow"><a class="dropdown-item link-light text-bg-dark" href="stats.html">Estatísticas&nbsp;</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item link-light text-bg-dark" href="#">Livros Emprestados</a>
-                            <div class="dropdown-divider"></div><a class="dropdown-item link-light text-bg-dark" href="#">Livros Atrasados</a>
-                            <div class="dropdown-divider"></div>
-                        </div>
-                    </li>
-                    <li class="nav-item"></li>
-                    <li class="nav-item"><a class="nav-link" href="config.html">Configurações</a></li>
-                </ul><a class="btn btn-primary shadow" role="button" href="signup.html" style="margin-right: 5px;">Tutoriais</a>
-            </div>
+  <body style="background: rgb(39, 38, 46)">
+    <nav
+      class="navbar navbar-dark navbar-expand-md fixed-top py-3"
+      id="mainNav"
+    >
+      <div class="container-fluid">
+        <a
+          class="navbar-brand d-flex align-items-center"
+          href="index.html"
+          style="margin-left: 5px"
+          ><span
+            class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+              class="bi bi-book-fill"
+            >
+              <path
+                d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"
+              ></path></svg></span
+          ><span>Kraken Book DB</span></a
+        >
+        <div class="collapse navbar-collapse" id="navcol-2">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="livros.html">Livros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Leitores</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="dropdown-toggle nav-link"
+                aria-expanded="false"
+                data-bs-toggle="dropdown"
+                href="#"
+                >Utilidades</a
+              >
+              <div class="dropdown-menu text-dark text-bg-dark shadow">
+                <a
+                  class="dropdown-item link-light text-bg-dark"
+                  href="stats.html"
+                  >Estatísticas&nbsp;</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item link-light text-bg-dark" href="#"
+                  >Livros Emprestados</a
+                >
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item link-light text-bg-dark" href="#"
+                  >Livros Atrasados</a
+                >
+                <div class="dropdown-divider"></div>
+              </div>
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item">
+              <a class="nav-link" href="config.html">Configurações</a>
+            </li>
+          </ul>
+          <a
+            class="btn btn-primary shadow"
+            role="button"
+            href="signup.html"
+            style="margin-right: 5px"
+            >Tutoriais</a
+          >
         </div>
+      </div>
     </nav>
-    <section style="background: var(--bs-dark);padding-top: 56px;margin-top: 30px;margin-bottom: 77px;">
-        <div class="row row-cols-1 row-cols-md-2 mx-auto" style="max-width: 900px;">
-            <div class="col-md-12 col-lg-12 mb-5">
-                <div class="card shadow-sm" style="margin: 15px;">
-                    <div class="card-body px-4 py-5 px-md-5" style="margin-bottom: 5px;">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-1 text-center d-lg-flex justify-content-lg-center align-items-lg-center">
-                                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1"></label></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h5 class="fw-bold">Name<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pencil-square text-primary" style="margin-left: 5px;">
-                                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
-                                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
-                                            </svg></a></h5>
-                                    <p style="margin-bottom: -1px;">ID</p>
-                                </div>
-                            </div>
-                        </div>
+    <section
+      style="
+        background: var(--bs-dark);
+        padding-top: 56px;
+        margin-top: 30px;
+        margin-bottom: 77px;
+      "
+    >
+      <div
+        class="row row-cols-1 row-cols-md-2 mx-auto"
+        style="max-width: 900px"
+      >
+        <div class="col-md-12 col-lg-12 mb-5">
+          <div class="card shadow-sm" style="margin: 15px">
+            <div class="card-body px-4 py-5 px-md-5" style="margin-bottom: 5px">
+              <div class="container">
+                <div class="row">
+                  <div
+                    class="col-md-6 col-lg-1 text-center d-lg-flex justify-content-lg-center align-items-lg-center"
+                  >
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="formCheck-1"
+                      /><label
+                        class="form-check-label"
+                        for="formCheck-1"
+                      ></label>
                     </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="fw-bold">
+                      Name<a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          viewBox="0 0 16 16"
+                          class="bi bi-pencil-square text-primary"
+                          style="margin-left: 5px"
+                        >
+                          <path
+                            d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"
+                          ></path>
+                          <path
+                            fill-rule="evenodd"
+                            d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"
+                          ></path></svg
+                      ></a>
+                    </h5>
+                    <p style="margin-bottom: -1px">ID</p>
+                  </div>
                 </div>
-                <div class="card shadow-sm" style="margin: 15px;">
-                    <div class="card-body px-4 py-5 px-md-5" style="margin-bottom: 5px;">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-1 text-center d-lg-flex justify-content-lg-center align-items-lg-center">
-                                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3"></label></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h5 class="fw-bold">Name<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pencil-square text-primary" style="margin-left: 5px;">
-                                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
-                                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
-                                            </svg></a></h5>
-                                    <p style="margin-bottom: -1px;">ID</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card shadow-sm" style="margin: 15px;">
-                    <div class="card-body px-4 py-5 px-md-5" style="margin-bottom: 5px;">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-1 text-center d-lg-flex justify-content-lg-center align-items-lg-center">
-                                    <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2"></label></div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h5 class="fw-bold">Name<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-pencil-square text-primary" style="margin-left: 5px;">
-                                                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"></path>
-                                                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"></path>
-                                            </svg></a></h5>
-                                    <p style="margin-bottom: -1px;">ID</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card shadow-sm" style="margin: 15px;"></div>
-                <div class="card shadow-sm" style="margin: 15px;"></div>
+              </div>
             </div>
+          </div>
+          <div class="card shadow-sm" style="margin: 15px">
+            <div class="card-body px-4 py-5 px-md-5" style="margin-bottom: 5px">
+              <div class="container">
+                <div class="row">
+                  <div
+                    class="col-md-6 col-lg-1 text-center d-lg-flex justify-content-lg-center align-items-lg-center"
+                  >
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="formCheck-3"
+                      /><label
+                        class="form-check-label"
+                        for="formCheck-3"
+                      ></label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="fw-bold">
+                      Name<a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          viewBox="0 0 16 16"
+                          class="bi bi-pencil-square text-primary"
+                          style="margin-left: 5px"
+                        >
+                          <path
+                            d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"
+                          ></path>
+                          <path
+                            fill-rule="evenodd"
+                            d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"
+                          ></path></svg
+                      ></a>
+                    </h5>
+                    <p style="margin-bottom: -1px">ID</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-sm" style="margin: 15px">
+            <div class="card-body px-4 py-5 px-md-5" style="margin-bottom: 5px">
+              <div class="container">
+                <div class="row">
+                  <div
+                    class="col-md-6 col-lg-1 text-center d-lg-flex justify-content-lg-center align-items-lg-center"
+                  >
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="formCheck-2"
+                      /><label
+                        class="form-check-label"
+                        for="formCheck-2"
+                      ></label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h5 class="fw-bold">
+                      Name<a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                          viewBox="0 0 16 16"
+                          class="bi bi-pencil-square text-primary"
+                          style="margin-left: 5px"
+                        >
+                          <path
+                            d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"
+                          ></path>
+                          <path
+                            fill-rule="evenodd"
+                            d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"
+                          ></path></svg
+                      ></a>
+                    </h5>
+                    <p style="margin-bottom: -1px">ID</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-sm" style="margin: 15px"></div>
+          <div class="card shadow-sm" style="margin: 15px"></div>
         </div>
+      </div>
     </section>
-    <div class="modal fade text-dark border-0" role="dialog" tabindex="-1" id="new_book" style="border-style: none;">
-        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-body text-end text-bg-primary bg-dark" style="border-style: none;padding-top: 20px;">
-                    <h4 class="text-center" style="margin-bottom: 15px;">Registrar Livro Novo</h4>
-                    <form><input class="form-control form-control-sm" type="text" style="background: var(--bs-body-bg);border-style: none;margin-bottom: 10px;" name="book_title" placeholder="Titulo do Livro"><input class="form-control form-control-sm" type="text" style="background: var(--bs-body-bg);border-style: none;margin-bottom: 10px;" name="book_autor" placeholder="Autor do Livro">
-                        <div class="col-auto col-xxl-12 offset-xxl-0 d-xxl-flex order-first justify-content-xxl-center"><input class="form-control form-control-sm" type="text" style="background: var(--bs-body-bg);border-style: none;margin-bottom: 10px;margin-right: 5px;" name="book_isbn" placeholder="ISBN"><input class="form-control form-control-sm" type="text" style="background: var(--bs-body-bg);border-style: none;margin-bottom: 10px;margin-left: 5px;" name="book_editor" placeholder="Editora"></div>
-                        <div class="col-xxl-12 offset-xxl-0 d-xxl-flex order-2 mx-auto justify-content-xxl-center"><input class="form-control form-control-sm" type="text" style="background: var(--bs-body-bg);border-style: none;margin-bottom: 10px;margin-right: 5px;" name="book_gender" placeholder="Genêro"><input class="form-control form-control-sm" type="text" style="background: var(--bs-body-bg);border-style: none;margin-bottom: 10px;margin-left: 5px;" name="book_local" placeholder="Pratileira"></div><input class="form-control form-control-sm" type="text" style="background: var(--bs-body-bg);border-style: none;margin-bottom: 10px;" name="book_autor" placeholder="Tags">
-                    </form><button class="btn btn-primary" id="close_newbook" type="button" style="margin-top: 10px;margin-right: 5px;">Cancelar</button><button class="btn btn-primary" id="save_newbook" type="button" style="margin-top: 10px;">Salvar</button>
-                </div>
-            </div>
+    <div
+      class="modal fade text-dark border-0"
+      role="dialog"
+      tabindex="-1"
+      id="new_book"
+      style="border-style: none"
+    >
+      <div
+        class="modal-dialog modal-lg modal-dialog-scrollable"
+        role="document"
+      >
+        <div class="modal-content">
+          <div
+            class="modal-body text-end text-bg-primary bg-dark"
+            style="border-style: none; padding-top: 20px"
+          >
+            <h4 class="text-center" style="margin-bottom: 15px">
+              Registrar Livro Novo
+            </h4>
+            <form>
+              <input
+                id="title"
+                class="form-control form-control-sm"
+                type="text"
+                style="
+                  background: var(--bs-body-bg);
+                  border-style: none;
+                  margin-bottom: 10px;
+                  color: var(--bs-modal-bg);
+                "
+                name="book_title"
+                placeholder="Titulo do Livro"
+              /><input
+                id="autor"
+                class="form-control form-control-sm"
+                type="text"
+                style="
+                  background: var(--bs-body-bg);
+                  border-style: none;
+                  margin-bottom: 10px;
+                  color: var(--bs-modal-bg);
+                "
+                name="book_autor"
+                placeholder="Autor do Livro"
+              />
+              <div
+                class="col-auto col-xxl-12 offset-xxl-0 d-xxl-flex order-first justify-content-xxl-center"
+              >
+                <input
+                  id="ISBN"
+                  class="form-control form-control-sm"
+                  type="text"
+                  style="
+                    background: var(--bs-body-bg);
+                    border-style: none;
+                    margin-bottom: 10px;
+                    margin-right: 5px;
+                    color: var(--bs-modal-bg);
+                  "
+                  name="book_isbn"
+                  placeholder="ISBN"
+                /><input
+                  id="editora"
+                  class="form-control form-control-sm"
+                  type="text"
+                  style="
+                    background: var(--bs-body-bg);
+                    border-style: none;
+                    margin-bottom: 10px;
+                    margin-left: 5px;
+                    color: var(--bs-modal-bg);
+                  "
+                  name="book_editor"
+                  placeholder="Editora"
+                />
+              </div>
+              <div
+                class="col-xxl-12 offset-xxl-0 d-xxl-flex order-2 mx-auto justify-content-xxl-center"
+              >
+                <input
+                  id="genero"
+                  class="form-control form-control-sm"
+                  type="text"
+                  style="
+                    background: var(--bs-body-bg);
+                    border-style: none;
+                    margin-bottom: 10px;
+                    margin-right: 5px;
+                    color: var(--bs-modal-bg);
+                  "
+                  name="book_gender"
+                  placeholder="Genêro"
+                /><input
+                  id="pratileira"
+                  class="form-control form-control-sm"
+                  type="text"
+                  style="
+                    background: var(--bs-body-bg);
+                    border-style: none;
+                    margin-bottom: 10px;
+                    margin-left: 5px;
+                    color: var(--bs-modal-bg);
+                  "
+                  name="book_local"
+                  placeholder="Pratileira"
+                />
+              </div>
+              <input
+                id="tags"
+                class="form-control form-control-sm"
+                type="text"
+                style="
+                  background: var(--bs-body-bg);
+                  border-style: none;
+                  margin-bottom: 10px;
+                  color: var(--bs-modal-bg);
+                "
+                name="book_autor"
+                placeholder="Tags"
+              />
+            </form>
+            <button
+              class="btn btn-primary"
+              id="close_newbook"
+              type="button"
+              style="margin-top: 10px; margin-right: 5px"
+              data-bs-target="#new_book"
+              data-bs-toggle="modal"
+            >
+              Cancelar</button
+            ><button
+              class="btn btn-primary"
+              id="save_newbook"
+              type="button"
+              style="margin-top: 10px"
+            >
+              Salvar
+            </button>
+          </div>
         </div>
+      </div>
     </div>
-    <nav class="navbar navbar-dark navbar-expand-md fixed-bottom text-center d-flex d-lg-flex justify-content-center align-items-center align-content-center justify-content-lg-center align-items-lg-center py-3" id="mainNav" style="background: var(--bs-dark);box-shadow: 0px 5px 20px var(--bs-black);text-align: center;">
-        <div class="container-fluid"><a class="navbar-brand d-flex align-items-center"><span class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-search">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                    </svg></span><input class="border-0 border-primary shadow-none form-control-sm" type="search" name="search_engine" placeholder="Pesquisar Livro" style="background: var(--bs-body-bg);border-radius: 17px;border-width: 0px;border-style: none;font-size: 23px;text-align: center;color: var(--bs-blue);--bs-body-color: var(--bs-blue);margin-right: 5px;margin-left: 5px;" autocomplete="on" minlength="1" autofocus="">
-                <div><a class="btn btn-primary text-bg-dark shadow" role="button" style="margin-right: 5px;margin-left: 5px;">&nbsp;Empréstimo</a><a class="btn btn-primary text-bg-dark shadow" role="button" style="margin-right: 5px;margin-left: 5px;">Etiquetas</a><a class="btn btn-primary shadow" role="button" style="margin-left: 5px;margin-right: 5px;">Adicionar Livro</a></div>
-            </a></div>
+    <nav
+      class="navbar navbar-dark navbar-expand-md fixed-bottom text-center d-flex d-lg-flex justify-content-center align-items-center align-content-center justify-content-lg-center align-items-lg-center py-3"
+      id="mainNav"
+      style="
+        background: var(--bs-dark);
+        box-shadow: 0px 5px 20px var(--bs-black);
+        text-align: center;
+      "
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center"
+          ><span
+            class="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+              viewBox="0 0 16 16"
+              class="bi bi-search"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+              ></path></svg></span
+          ><input
+            class="border-0 border-primary shadow-none form-control-sm"
+            type="search"
+            name="search_engine"
+            placeholder="Pesquisar Livro"
+            style="
+              background: var(--bs-body-bg);
+              border-radius: 17px;
+              border-width: 0px;
+              border-style: none;
+              font-size: 23px;
+              text-align: center;
+              color: var(--bs-blue);
+              --bs-body-color: var(--bs-blue);
+              margin-right: 5px;
+              margin-left: 5px;
+            "
+            autocomplete="on"
+            minlength="1"
+            autofocus=""
+          />
+          <div>
+            <a
+              class="btn btn-primary text-bg-dark shadow"
+              role="button"
+              style="margin-right: 5px; margin-left: 5px"
+              >&nbsp;Empréstimo</a
+            ><a
+              class="btn btn-primary text-bg-dark shadow"
+              role="button"
+              style="margin-right: 5px; margin-left: 5px"
+              >Etiquetas</a
+            ><button
+              class="btn btn-primary shadow"
+              type="button"
+              style="margin-left: 5px; margin-right: 5px"
+              data-bs-target="#new_book"
+              data-bs-toggle="modal"
+            >
+              Adicionar Livro
+            </button>
+          </div>
+        </a>
+      </div>
     </nav>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bold-and-dark.js"></script>
-</body>
-
+    <script src="newBookData.js"></script>
+  </body>
 </html>

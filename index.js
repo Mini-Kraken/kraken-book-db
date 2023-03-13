@@ -9,12 +9,11 @@ app.on('ready', () => {
         closable: true,
         minHeight: 600,
         minWidth: 1200,
-        //frame: false,
+        // frame: false,
         titleBarStyle: "Kraken Boot DB",
         titleBarOverlay: true,
-        
     });
-    mainWindow.setMenu(null);
+    // mainWindow.setMenu(null);
     mainWindow.setIcon(`${__dirname}/icon.png`, `Overlay Icon`)
     mainWindow.setBackgroundColor('#2d2c38')
     //mainWindow.webContents.openDevTools()
