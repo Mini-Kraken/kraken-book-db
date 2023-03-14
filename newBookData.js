@@ -2,7 +2,6 @@
 // const df = require("danfojs");
 
 window.addEventListener("load", loaded);
-console.log("adaw")
 const db = openDatabase("database", "1.0", "sqlite", 2 * 1024 * 1024); //abrir database local
 
 const save_book = document.querySelector("#save_newbook");
